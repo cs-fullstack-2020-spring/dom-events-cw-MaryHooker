@@ -1,0 +1,55 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    height: 90vh;
+    border: 3px solid lightslategray;
+    gap: 5px;
+    
+}
+
+header{
+    grid-column: 1/11;
+    grid-row: 1;
+    padding-left: 15px;
+    background-color: blue;
+}
+
+main{
+    grid-column: 3/7;
+    grid-row: 2/4;
+    padding-left: 15px;
+    background-color: green;
+    text-align: center;
+}
+
+#section{
+    grid-column: 7/9;
+    grid-row: 2/4;
+    padding-left: 15px;
+    background-color: purple;
+    text-align: center;
+}
+
+#firstTwin{
+    grid-column: 3/6;
+    grid-row: 4/6;
+    padding-left: 15px;
+    background-color: orange;
+    text-align: center;
+}
+
+#secondTwin{
+    grid-column: 6/9;
+    grid-row: 4/6;
+    padding-left: 15px;
+    background-color: orange;
+    text-align: center;
+}
+
+footer{
+    grid-column: 1/11;
+    grid-row: 6;
+    padding-left: 15px;
+    background-color: blue;
+}
